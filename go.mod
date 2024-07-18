@@ -3,6 +3,7 @@ module github.com/DoctorOgg/sensu-check-http-json
 go 1.18
 
 require (
+	github.com/itchyny/gojq v0.12.16
 	github.com/sensu-community/sensu-plugin-sdk v0.11.0
 	github.com/sensu/sensu-go/api/core/v2 v2.3.0
 	github.com/sensu/sensu-go/types v0.3.0
@@ -19,6 +20,7 @@ require (
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/itchyny/timefmt-go v0.1.6 // indirect
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
 	github.com/magiconair/properties v1.8.1 // indirect
@@ -38,7 +40,7 @@ require (
 	github.com/spf13/viper v1.7.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	golang.org/x/net v0.0.0-20190620200207-3b0461eec859 // indirect
-	golang.org/x/sys v0.0.0-20190624142023-c5567b49c5d0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.3.2 // indirect
 	google.golang.org/genproto v0.0.0-20191108220845-16a3f7862a1a // indirect
 	google.golang.org/grpc v1.24.0 // indirect
